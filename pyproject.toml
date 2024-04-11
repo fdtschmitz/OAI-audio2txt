@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "oai-audio2txt"
+version = "0.0.1"
+description = "OpenAI API implementation for transcribing and summarizing meeting recordings."
+authors = ["fdtschmitz <fdtschmitz.dev@gmail.com>"]
+license = "MIT license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.16.2"
+docx = "^0.2.4"
+pydub = "^0.25.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
