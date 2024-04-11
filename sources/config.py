@@ -9,3 +9,4 @@ class Config:
     AUDIO_EXTENSIONS = (".mp3", ".mp4", ".mpeg", ".mpga", ".m4a", ".wav", ".webm")
     # Determina o tempo máximo de cada pedaço cortado de audio.
     CHUNK_DURATION = 45
+    TRANSCRIPTION = 'transcripted' if not DEBUG else 'test/test_transcription'
